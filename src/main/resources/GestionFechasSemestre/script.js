@@ -12,3 +12,27 @@ guardarBtn.addEventListener('click', async () => {
     };
     await fetch('/semestres', {
         method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(semestre)
+    });
+    alert('Fechas guardadas correctamente');
+});
+
+consultarBtn.addEventListener('click', async () => {
+    const response = await fetch('/semestres');
+    const fechas = await response.json();
+    fechasDiv.innerHTML = '';
+    if (fechas.length === 0) {
+        fechasDiv.innerHTML = 'No se encontraron fechas';
+        return;
+    }
+    const ul = document.createElement('ul');
+    for (const fecha of fechas) {
+        const li = document.createElement('li');
+        li.textContent = `${fecha.tipo}: ${fecha.fecha}`;
+        ul.appendChild(li);
+    }
+    fechasDiv.appendChild(ul);
+});
