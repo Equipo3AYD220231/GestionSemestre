@@ -1,2 +1,4 @@
-package com.fabrica.gestionsemestre.model;public class ServiceCourse {
+package com.fabrica.gestionsemestre.model;
+
+public class ServiceCourse {
 }

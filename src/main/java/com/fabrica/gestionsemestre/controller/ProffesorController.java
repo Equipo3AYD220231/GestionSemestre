@@ -1,4 +1,4 @@
 package com.fabrica.gestionsemestre.controller;
 
-public class ProffesorCottoller {
+public class ProffesorController {
 }

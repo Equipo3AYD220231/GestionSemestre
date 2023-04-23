@@ -1,2 +1,4 @@
-package com.fabrica.gestionsemestre.model;public class DepartmentChief {
+package com.fabrica.gestionsemestre.model;
+
+public class DepartmentChief {
 }
