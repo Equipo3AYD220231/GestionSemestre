@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Rango de Fechas</title>
+    <!-- Enlace a los archivos CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Encabezado con el logo de la Universidad de Antioquia -->
+<header class="bg-success text-white text-center py-1">
+    <div class="container">
+        <img src="logoudea.png" alt="Logo Universidad de Antioquia" class="img-fluid" width="400">
+        <h1 class="mt-6">Ingreso Fecha Semestre </h1>
+    </div>
+</header>
+
+<!-- Contenido principal del formulario -->
+<main class="container mt-4">
+    <div class="row">
+        <div class="col-md-3 offset-md-1">
+            <form id="consulta-form">
+                <div class="form-group">
+
+                    <form>
+                        <label for="fechaInicio">Fecha de inicio:</label>
+                        <input type="date" id="fechaInicio" name="fechaInicio"><br>
+
+                        <label for="fechaFinal">Fecha de finalización:</label>
+                        <input type="date" id="fechaFinal" name="fechaFinal"><br>
+
+                        <label for="fechaEvaluacion">Fecha de evaluación del 40%:</label>
+                        <input type="date" id="fechaEvaluacion" name="fechaEvaluacion"><br>
+
+                        <label for="fechaExamenes">Fecha de exámenes:</label>
+                        <input type="date" id="fechaExamenes" name="fechaExamenes"><br>
+
+                        <label for="fechaHabilitaciones">Fecha de habilitaciones:</label>
+                        <input type="date" id="fechaHabilitaciones" name="fechaHabilitaciones"><br>
+                        <br>
+                        <button type="button" id="guardar">Guardar fechas</button>
+                        <button type="button" id="consultar">Consultar fechas</button>
+                    </form>
+                    <br> <br><br>
+
+
+                    <div id="fechas">
+                        <h2>Visualisar Fechas de semestre ingresados</h2>
+                        <br>
+                        <p>Fecha de inicio: <span id="fechaInicio"></span></p>
+                        <p>Fecha de finalización: <span id="fechaFinal"></span></p>
+                        <p>Fecha de evaluación del 40%: <span id="fechaEvaluacion"></span></p>
+                        <p>Fecha de exámenes: <span id="fechaExamenes"></span></p>
+                        <p>Fecha de habilitaciones: <span id="fechaHabilitaciones"></span></p>
+                    </div>
+
+
+                </div>
+                <button type="submit" class="btn btn-primary">Consultar</button>
+            </form>
+            <br>
+        </div>
+    </div>
+
+</main>
+<footer  class="bg-success text-white text-center py-1">
+    <div class="row">
+        <div class="col-md-3 offset-md-1">
+            <div id="resultado">Proyecto fabrica escuela</div>
+        </div>
+    </div>
+    <br><br>
+</footer>
+
+<!-- Enlace a los archivos JS de Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

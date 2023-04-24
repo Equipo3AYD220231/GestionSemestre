@@ -1,3 +1,8 @@
+.bg-military {
+    background-color: #556B2F; /* Color verde militar */
+}
+
+
 body {
     font-family: Arial, sans-serif;
 }
