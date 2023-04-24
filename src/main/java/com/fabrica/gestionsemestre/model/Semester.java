@@ -1,7 +1,6 @@
 package com.fabrica.gestionsemestre.model;
 
 import jakarta.persistence.*;
-import lombok.Getter;
 
 import java.time.LocalDate;
 
@@ -9,7 +8,7 @@ import java.time.LocalDate;
 @Table(name = "Semestre")
 
 
-public class Semestre {
+public class Semester {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
