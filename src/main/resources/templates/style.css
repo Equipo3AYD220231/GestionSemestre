@@ -1,0 +1,35 @@
+.bg-military {
+    background-color: #556B2F; /* Color verde militar */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#fechas {
+    margin-top: 20px;
+}

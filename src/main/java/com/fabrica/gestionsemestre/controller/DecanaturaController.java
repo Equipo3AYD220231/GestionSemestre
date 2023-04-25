@@ -1,2 +1,4 @@
-package com.fabrica.gestionsemestre.controller;public class DecanaturaController {
+package com.fabrica.gestionsemestre.controller;
+
+public class DecanaturaController {
 }

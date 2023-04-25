@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GestionSemestreApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(GestionSemestreApplication.class, args);
+
     }
 
 }
