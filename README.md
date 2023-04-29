@@ -5,6 +5,6 @@
 
 ## [[https://github.com/Equipo3AYD220231/GetionSemestre2]]
 
-# se eliminará este reositorio en dos semanas.
+# se eliminará este repositorio en dos semanas.
 
 
